@@ -1,0 +1,39 @@
+body{display: flex;
+align-items: center;
+flex-direction: column;}
+table {
+    border-collapse: separate;
+    border-spacing: 0;
+  }
+  table tr td {background: white;}
+  table {
+    width: 90%;
+    height: 70%;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    border: solid 1px #d1d5db;
+  }
+  td {
+    border: solid 1px #d1d5db;
+    border-style: none none solid none;
+    padding: 10px;
+
+  
+  }
+  tr{ position: relative;}
+   i {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+  }
+  tr td {
+    text-align: center;
+  }
+  button { width: 200px;
+height: 40px;
+background-color: yellowgreen;
+font-size: 20px;
+border-radius: 10px;}
